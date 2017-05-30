@@ -12,3 +12,8 @@ container, ActionCreator, externe Bibliotheken, einfache GET-API Abfragen, React
 
 4_Blog
 ======
+Router, Forms, Validierung
+
+Redux Thunk:
+bisher React+Redux Cycle synchron 
+Asynchrone Action Creator und Actions nicht mit Boardmitteln möglich
