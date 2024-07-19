@@ -6,6 +6,15 @@ export default class CarStore {
 
   constructor() {
     makeAutoObservable(this);
+    this.fetchCars()
+  }
+
+  fetchCars = () => {
+    const CAR_URL = 'https://vpic.nhtsa.dot.gov/api/vehicles/GetMakesForVehicleType/car?format=json'
+
+    fetch(CAR_URL)
+        .then(res => res.json())
+        .then(cars => this.setCars(cars.Results));
   }
 
   setFilter = (filter) => {
