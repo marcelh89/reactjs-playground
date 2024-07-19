@@ -12,8 +12,8 @@ This project uses yarn3 workspaces.
 See a list of all workspaces with ``` yarn workspaces list ```
 
 State Examples are
+- mobx (updated 07/2024) ``` yarn workspace mobx start  ```
 - zustand ``` yarn workspace zustand start  ```
-- mobx ``` yarn workspace mobx start  ```
 - redux ``` yarn workspace redux start  ```
 - context (react) ``` yarn workspace context start  ```
 - recoil ``` yarn workspace recoil start  ```
